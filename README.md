@@ -44,6 +44,7 @@ Console renders a simple histogram of the data
 
 ## Customization
 
+### Display Width
 Change the width (in characters) of the display
 
 ```Javascript
@@ -63,7 +64,8 @@ hist.setDisplayWidthChars(100); // Default is 50
 451 to 500 | ■■■■■■■■■■ (1)
 ```
 
-Change the number of buckets
+### Number of Data Buckets
+Change the number of buckets to see more or fewer lines in the histogram
 
 ```Javascript
 hist.setNumBuckets(5); // Default is 10
@@ -77,8 +79,8 @@ hist.setNumBuckets(5); // Default is 10
 401 to 500 | ■■■■■ (1)
 ```
 
-
-Change the resolution.  Resolution is an approximation of the values you expect to see.  The lower the resolution value, the more raw values will 
+### Data Resolution
+Resolution is an approximation of the values you expect to see.  The lower the resolution value, the more raw values will 
 be stored in memory, but the more accurate the histogram.  The higher the resolution value, the more performant the histogram will be, but the less 
 accurate the data.
 
