@@ -86,6 +86,8 @@ accurate the data.
 
 If your resolution is too low (i.e. the value is too high), you might see a warning indicating some values are merged which should be separate.
 
+When choosing a resolution, pick your *best guess* as to the *median* (50th percentile) of your data.
+
 ```Javascript
 hist.setResolution(100); // Default is 10
 ```
